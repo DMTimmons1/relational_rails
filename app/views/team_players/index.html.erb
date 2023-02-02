@@ -1,0 +1,5 @@
+<% @team_players.each do |player| %>
+  <%= link_to player.name, "/players/#{player.id}" %>
+<% end %>
+
+<p> Average Player Height for <%= @team_player.name %>: <%= @team_player.average_team_height %></p>

@@ -1,0 +1,9 @@
+<h1>Players</h1>
+
+<% @players.each do |player| %>
+  <h3><%= player.name %></h3>
+  <p>Age: <%= player.age %></p>
+  <p>Height in cm: <%= player.height_in_cm %></p>
+  <p>Position: <%= player.position %></p>
+  <p>Their first year in the league? <%= player.is_a_rookie %></p>
+<% end %>
