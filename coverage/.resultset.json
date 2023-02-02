@@ -246,12 +246,97 @@
           1,
           1,
           1,
+          1,
           null
         ]
       },
       "/Users/dawson/turing_work/2mod/projects/Relational_Rails/app/helpers/application_helper.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/dawson/turing_work/2mod/projects/Relational_Rails/spec/features/players/show_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/dawson/turing_work/2mod/projects/Relational_Rails/spec/features/teams/index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/dawson/turing_work/2mod/projects/Relational_Rails/spec/features/teams/show_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
           null
         ]
       },
@@ -280,7 +365,7 @@
         "lines": [
           1,
           1,
-          0,
+          1,
           null,
           null,
           1,
@@ -294,8 +379,21 @@
           1,
           null
         ]
+      },
+      "/Users/dawson/turing_work/2mod/projects/Relational_Rails/app/controllers/teams_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1675302539
+    "timestamp": 1675305881
   }
 }
