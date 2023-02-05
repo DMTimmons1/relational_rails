@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 2023_02_01_233513) do
     t.string "name"
     t.string "city"
     t.integer "rank"
-    t.string "confrence"
+    t.string "conference"
     t.boolean "has_won_championship"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
