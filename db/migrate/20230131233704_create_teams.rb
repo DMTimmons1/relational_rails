@@ -4,7 +4,7 @@ class CreateTeams < ActiveRecord::Migration[5.2]
       t.string :name
       t.string :city
       t.integer :rank
-      t.string :confrence
+      t.string :conference
       t.boolean :has_won_championship
       t.timestamps
     end

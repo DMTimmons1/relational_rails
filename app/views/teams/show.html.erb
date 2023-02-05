@@ -1,5 +1,7 @@
+<p><%= link_to "Current Players on The #{@team.name}", "/teams/#{@team.id}/players" %></P>
 <h1><%= @team.name %></h1>
 <p>City: <%= @team.city %></p>
-<p>Confrence: <%= @team.confrence %></p>
+<p>Conference: <%= @team.conference %></p>
 <p>Current rank in confrence: <%= @team.rank %></p>
-<p>Team has won a championship: <%= @team.has_won_championship %></p>
+<p><%= @team.name %> have won a championship: <%= @team.has_won_championship %></p>
+<p>Number of players on The <%= @team.name %>: <%= @player_count %></p>
