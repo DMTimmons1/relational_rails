@@ -1,13 +1,17 @@
+<h1><%= "Edit #{@team.name}" %></h1>
+
 <%= form_with url: "/teams/#{@team.id}", method: :patch, local: true do |form| %>
 <%= form.label :name %>
 <%= form.text_field :name %> <br>
 <%= form.label :city %>
 <%= form.text_field :city %> <br>
 <%= form.label :conference %> 
-<%= form.text_field :conference %> <br>
+<%= form.radio_button :conference, 'east' %> east
+<%= form.radio_button :conference, 'west' %> west <br>
 <%= form.label :rank %>
 <%= form.text_field :rank %> <br>
 <%= form.label :has_won_championship %>
-<%= form.text_field :has_won_championship%> <br>
+<%= form.radio_button :has_won_championship, 'true' %> true
+<%= form.radio_button :has_won_championship, 'false' %> false <br>
 <%= form.submit "Update Team" %>
 <% end %>

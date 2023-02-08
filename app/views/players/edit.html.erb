@@ -1,0 +1,16 @@
+<h1> Edit <%= "#{@player.name}" %> </h1>
+
+<%= form_with url: "/players/#{@player.id}", method: :patch, local: true do |form| %> 
+  <%= form.label :name %>
+  <%= form.text_field :name %> <br>
+  <%= form.label :age %>
+  <%= form.text_field :age %> <br>
+  <%= form.label :height_in_cm %> 
+  <%= form.text_field :height_in_cm %> <br>
+  <%= form.label :position %>
+  <%= form.text_field :position %> <br>
+  <%= form.label :is_a_rookie %>
+  <%= form.radio_button :is_a_rookie, 'true' %> true
+  <%= form.radio_button :is_a_rookie, 'false' %> false <br>
+  <%= form.submit "Update #{@player.name}" %>
+<% end %>
