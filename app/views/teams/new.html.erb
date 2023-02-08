@@ -6,10 +6,12 @@
   <%= form.label :city %>
   <%= form.text_field :city %> <br>
   <%= form.label :conference %> 
-  <%= form.text_field :conference %> <br>
+  <%= form.radio_button :conference, 'east' %> east
+  <%= form.radio_button :conference, 'west' %> west <br>
   <%= form.label :rank %>
   <%= form.text_field :rank %> <br>
   <%= form.label :has_won_championship %>
-  <%= form.text_field :has_won_championship%> <br>
+  <%= form.radio_button :has_won_championship, 'true' %> true
+  <%= form.radio_button :has_won_championship, 'false' %> false <br>
   <%= form.submit "Create Team" %>
 <% end %>

@@ -4,3 +4,4 @@
 <p>Height: <%= @player.height_in_cm %>cm</p>
 <p>Position: <%= @player.position %></p>
 <p>First year playing in the league: <%= @player.is_a_rookie %></p>
+<%= button_to "Edit #{@player.name}", "/players/#{@player.id}/edit" %>

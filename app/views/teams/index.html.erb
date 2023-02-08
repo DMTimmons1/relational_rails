@@ -9,4 +9,5 @@
   <p>Team has won a championship: <%= team.has_won_championship %></p>
   <p>Record created at: <%= team.created_at %></p>
   <%= button_to "Edit #{team.name}", "/teams/#{team.id}/edit", method: :get %>
+  <%= button_to "Delete #{team.name}", "/teams/#{team.id}", method: :delete %>
 <% end %>
